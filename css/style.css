@@ -42,10 +42,15 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
-#one-page > .trigger1{
+#one-page > .p1-trigger-1{
   position: relative;
   opacity: 0;
-  top: 200px;
+  top: 580px;
+}
+#one-page > .p1-trigger-2{
+  position: relative;
+  opacity: 0;
+  top: 640px;
 }
 #one-page > .illurst > .ill-main{
   width: 666px;
