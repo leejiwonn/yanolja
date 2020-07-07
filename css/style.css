@@ -204,6 +204,16 @@ body {
   text-align: center;
 }
 
+#four-page > .p4-trigger-1{
+  top: 400px;
+}
+#four-page > .p4-trigger-2{
+  top: 750px;
+}
+#four-page > .p4-trigger-3{
+  top: 0;
+}
+
 #four-page{
   height: 1190px;
 }
