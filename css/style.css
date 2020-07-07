@@ -564,16 +564,16 @@ body {
   top: 2600px;
 }
 #seven-page > .p7-trigger-6{
-  top: 1900px;
+  top: 3400px;
 }
 #seven-page > .p7-trigger-7{
-  top: 1900px;
+  top: 4150px;
 }
 #seven-page > .p7-trigger-8{
-  top: 1900px;
+  top: 4850px;
 }
 #seven-page > .p7-trigger-9{
-  top: 1900px;
+  top: 6300px;
 }
 
 #seven-page {
@@ -876,7 +876,7 @@ body {
 .p7-bold-1 {
   width: 575px;
   height: 469px;
-  top: 105px;
+  top: 115px;
   left: 540px;
 }
 .p7-bold-2 {
@@ -932,7 +932,7 @@ body {
 }
 .p7-ut-content {
   width: 90%;
-  height: 1104px;
+  height: 1204px;
   position: relative;
   left: 5%;
   margin-top: 60px;
@@ -1032,7 +1032,7 @@ body {
 .p7-ut-result-illust {
   position: absolute;
   left: -15px;
-  bottom: 234px;
+  bottom: 134px;
 }
 
 #eight-page {

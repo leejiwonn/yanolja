@@ -319,4 +319,78 @@
     name: "20"
   });
 
+  var tweenP21 = gsap.timeline()
+  .fromTo(".p7-text-2", {scale: 1.2, opacity: 0, duration: 1, ease: "back.inOut" }, {scale: 1, opacity: 1, duration: 0.8, ease: "back.inOut"}, "with")
+  .fromTo(".p7-main-deco-1", {y: -30, opacity: 0, duration: 0.5, ease: "sine.inOut" }, {y: 0, opacity: 1, duration: 0.6, ease: Bounce.easeOut, delay: 0.8}, "with")
+  .fromTo(".p7-main-deco-2", {y: 30, opacity: 0, duration: 0.5, ease: "sine.inOut" }, {y: 0, opacity: 1, duration: 0.6, ease: Bounce.easeOut, delay: 0.8}, "with");
+
+  var sceneP21 = new ScrollMagic.Scene({
+    triggerElement: ".p7-trigger-6",
+    triggerhook: 0.8
+  })
+  .setTween(tweenP21)
+  .addTo(controller)
+  .addIndicators({
+    name: "21"
+  });
+
+  var tweenP22 = gsap.timeline()
+  .fromTo(".p7-map3-0", {opacity: 0, duration: 1, ease: "sine.inOut"}, {opacity: 1, duration: 0.8, ease: "sine.inOut"})
+  .fromTo(".p7-map3-1", {opacity: 0, duration: 0.4, ease: "sine.inOut"}, {opacity: 1, duration: 0.3, ease: "sine.inOut"})
+  .fromTo(".p7-line3-1", {x: -100, opacity: 0, duration: 0.4, ease: "sine.inOut"}, {x: 0, opacity: 1, duration: 0.5, ease: "sine.inOut"}, "with1")
+  .fromTo(".p7-map3-2", {opacity: 0, duration: 0.4, ease: "sine.inOut"}, {opacity: 1, duration: 0.3, ease: "sine.inOut", delay: 0.4}, "with1")
+  .fromTo(".p7-line3-2", {y: -100, opacity: 0, duration: 0.4, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.5, ease: "sine.inOut"}, "with2")
+  .fromTo(".p7-map3-3", {opacity: 0, duration: 0.4, ease: "sine.inOut"}, {opacity: 1, duration: 0.3, ease: "sine.inOut", delay: 0.4}, "with2")
+  .fromTo(".p7-line3-3", {y: -100, opacity: 0, duration: 0.4, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.5, ease: "sine.inOut"}, "with3")
+  .fromTo(".p7-map3-4", {opacity: 0, duration: 0.4, ease: "sine.inOut"}, {opacity: 1, duration: 0.3, ease: "sine.inOut", delay: 0.4}, "with3")
+  .fromTo(".p7-line3-4", {x: -100, opacity: 0, duration: 0.4, ease: "sine.inOut"}, {x: 0, opacity: 1, duration: 0.5, ease: "sine.inOut"}, "with4")
+  .fromTo(".p7-map3-5", {opacity: 0, duration: 0.4, ease: "sine.inOut"}, {opacity: 1, duration: 0.3, ease: "sine.inOut", delay: 0.4}, "with4")
+  .fromTo(".p7-line3-5", {y: -100, opacity: 0, duration: 0.4, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.5, ease: "sine.inOut"}, "with5")
+  .fromTo(".p7-map3-6", {opacity: 0, duration: 0.4, ease: "sine.inOut"}, {opacity: 1, duration: 0.3, ease: "sine.inOut", delay: 0.4}, "with5")
+  .fromTo(".p7-line3-6", {y: -100, opacity: 0, duration: 0.4, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.5, ease: "sine.inOut"}, "with6")
+  .fromTo(".p7-map3-7", {opacity: 0, duration: 0.4, ease: "sine.inOut"}, {opacity: 1, duration: 0.3, ease: "sine.inOut", delay: 0.4}, "with6")
+  .fromTo(".p7-bold-1", {scale: 0.8, opacity: 0, duration: 1, ease: "sine.inOut"}, {scale: 1, opacity: 1, duration: 0.8, ease: Bounce.easeOut}, "with7")
+  .fromTo(".p7-progress-1st-result", {y: -20, opacity: 0, duration: 1, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.8, ease: "sine.inOut", delay: 0.5}, "with7");
+
+  var sceneP22 = new ScrollMagic.Scene({
+    triggerElement: ".p7-trigger-7",
+    triggerhook: 0.8
+  })
+  .setTween(tweenP22)
+  .addTo(controller)
+  .addIndicators({
+    name: "22"
+  });
+
+  var tweenP23 = gsap.timeline()
+  .fromTo(".p7-ut-title", {opacity: 0, duration: 1, ease: "sine.inOut"}, {opacity: 1, duration: 1, ease: "sine.inOut"})
+  .fromTo(".p7-ut-item-1", {y: 30, opacity: 0, duration: 0.6, ease: Back.easeOut}, {y: 0, opacity: 1, duration: 0.8, ease: Back.easeOut}, "with")
+  .fromTo(".p7-ut-item-2", {y: 30, opacity: 0, duration: 0.6, ease: Back.easeOut}, {y: 0, opacity: 1, duration: 0.8, ease: Back.easeOut, delay: 0.4}, "with")
+  .fromTo(".p7-ut-item-3", {y: 30, opacity: 0, duration: 0.6, ease: Back.easeOut}, {y: 0, opacity: 1, duration: 0.8, ease: Back.easeOut, delay: 0.2}, "with");
+
+  var sceneP23 = new ScrollMagic.Scene({
+    triggerElement: ".p7-trigger-8",
+    triggerhook: 0.8
+  })
+  .setTween(tweenP23)
+  .addTo(controller)
+  .addIndicators({
+    name: "23"
+  });
+
+  var tweenP24 = gsap.timeline()
+  .fromTo(".p7-ut-result-title", {scale: 1.2, opacity: 0, duration: 1, ease: "back.inOut" }, {scale: 1, opacity: 1, duration: 0.8, ease: "back.inOut"}, "with")
+  .fromTo(".p7-ut-result-highlight", {y: 30, opacity: 0, duration: 0.5, ease: "sine.inOut" }, {y: -10, opacity: 1, duration: 0.6, ease: Bounce.easeOut, delay: 0.6}, "with")
+  .fromTo(".p7-ut-result-illust", {x: -500, opacity: 0, duration: 1.2, ease: "sine.inOut" }, {x: 0, opacity: 1, duration: 1.5, ease: Back.easeOut, delay: 1.5}, "with");
+
+  var sceneP24 = new ScrollMagic.Scene({
+    triggerElement: ".p7-trigger-9",
+    triggerhook: 0.8
+  })
+  .setTween(tweenP24)
+  .addTo(controller)
+  .addIndicators({
+    name: "24"
+  });
+
 })();
