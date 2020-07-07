@@ -1640,6 +1640,34 @@ body {
   width: 100%;
 }
 
+#ten-page > .p10-trigger-1{
+  top: 400px;
+}
+#ten-page > .p10-trigger-2{
+  top: 1500px;
+}
+#ten-page > .p10-trigger-3{
+  top: 2600px;
+}
+#ten-page > .p10-trigger-4{
+  top: 4000px;
+}
+#ten-page > .p10-trigger-5{
+  top: 5200px;
+}
+#ten-page > .p10-trigger-6{
+  top: 6300px;
+}
+#ten-page > .p10-trigger-7{
+  top: 6800px;
+}
+#ten-page > .p10-trigger-8{
+  top: 8550px;
+}
+#ten-page > .p10-trigger-9{
+  top: 8900px;
+}
+
 #ten-page {
   background-color: #fd3478;
 }
