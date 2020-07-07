@@ -489,4 +489,55 @@
     name: "29"
   });
 
+  var tweenP30 = gsap.timeline()
+  .fromTo(".p9-content-middle", {opacity: 0, duration: 1, ease: "sine.inOut"}, {opacity: 1, duration: 1, ease: "sine.inOut"}, "with1")
+  .fromTo(".p9-cir-1", {scale: 0.8, opacity: 0, duration: 1, ease: "sine.inOut"}, {scale: 1, opacity: 1, duration: 1, ease: Back.easeOut}, "with1")
+  .fromTo(".p9-content-title", {x: -50, opacity: 0, duration: 1, ease: "sine.inOut"}, {x: 0, opacity: 1, duration: 1, ease: "sine.inOut"})
+  .fromTo(".p9-cir-2", {scale: 0.8, opacity: 0, duration: 1, ease: "sine.inOut"}, {scale: 1, opacity: 1, duration: 1, ease: Back.easeOut}, "with2")
+  .fromTo(".p9-cir-3", {scale: 0.8, opacity: 0, duration: 1, ease: "sine.inOut"}, {scale: 1, opacity: 1, duration: 1, ease: Back.easeOut, delay: 0.3}, "with2")
+  .fromTo(".p9-cir-4", {scale: 0.8, opacity: 0, duration: 1, ease: "sine.inOut"}, {scale: 1, opacity: 1, duration: 1, ease: Back.easeOut, delay: 0.6}, "with2")
+  .fromTo(".p9-content-text", {y: -50, opacity: 0, duration: 0.7, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.8, ease: "sine.inOut", delay: 1}, "with2")
+
+  var sceneP30 = new ScrollMagic.Scene({
+    triggerElement: ".p9-trigger-1",
+    triggerhook: 0.8
+  })
+  .setTween(tweenP30)
+  .addTo(controller)
+  .addIndicators({
+    name: "30"
+  });
+
+  var tweenP31 = gsap.timeline()
+  .fromTo(".p9-illust-1", {y: -30, opacity: 0, duration: 0.5, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.6, ease: "sine.inOut"}, "with1")
+  .fromTo(".p9-bt-1", {y: -20, opacity: 0, duration: 0.5, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.6, ease: "sine.inOut", delay: 0.2}, "with1")
+  .fromTo(".p9-illust-2", {y: -30, opacity: 0, duration: 0.5, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.6, ease: "sine.inOut"}, "with2")
+  .fromTo(".p9-bt-2", {y: -20, opacity: 0, duration: 0.5, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.6, ease: "sine.inOut", delay: 0.2}, "with2")
+
+  var sceneP31 = new ScrollMagic.Scene({
+    triggerElement: ".p9-trigger-2",
+    triggerhook: 0.8
+  })
+  .setTween(tweenP31)
+  .addTo(controller)
+  .addIndicators({
+    name: "31"
+  });
+
+  var tweenP32 = gsap.timeline()
+  .fromTo(".p9-illust-1", {y: -30, opacity: 0, duration: 0.5, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.6, ease: "sine.inOut"}, "with1")
+  .fromTo(".p9-bt-1", {y: -20, opacity: 0, duration: 0.5, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.6, ease: "sine.inOut", delay: 0.2}, "with1")
+  .fromTo(".p9-illust-2", {y: -30, opacity: 0, duration: 0.5, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.6, ease: "sine.inOut"}, "with2")
+  .fromTo(".p9-bt-2", {y: -20, opacity: 0, duration: 0.5, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.6, ease: "sine.inOut", delay: 0.2}, "with2")
+
+  var sceneP32 = new ScrollMagic.Scene({
+    triggerElement: ".p9-trigger-3",
+    triggerhook: 0.8
+  })
+  .setTween(tweenP32)
+  .addTo(controller)
+  .addIndicators({
+    name: "32"
+  });
+
 })();
