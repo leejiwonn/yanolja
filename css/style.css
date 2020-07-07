@@ -1035,8 +1035,25 @@ body {
   bottom: 134px;
 }
 
+#eight-page > .p8-trigger-1{
+  top: 300px;
+}
+#eight-page > .p8-trigger-2{
+  top: 1500px;
+}
+#eight-page > .p8-trigger-3{
+  top: 2600px;
+}
+#eight-page > .p8-trigger-4{
+  top: 3600px;
+}
+#eight-page > .p8-trigger-5{
+  top: 4200px;
+}
+
 #eight-page {
   background-color: #fd3478;
+  top: -10px;
   overflow: visible;
 }
 .p8-q-wrapper {
@@ -1056,7 +1073,7 @@ body {
   box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.22);
   background-color: #ffffff;
   top: 0;
-  right: 0;
+  right: -10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1093,7 +1110,7 @@ body {
   height: 431px;
   background-color: #ca2a63;
   top: 25px;
-  right: 10px;
+  right: 0;
   transform-origin: right top;
   transform: rotate(352deg);
   border-radius: 15px;
@@ -1111,7 +1128,7 @@ body {
 }
 .p8-ut-content {
   width: 90%;
-  height: 1104px;
+  height: 1154px;
   position: relative;
   left: 5%;
   margin-top: 60px;
