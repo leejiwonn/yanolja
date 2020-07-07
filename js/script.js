@@ -14,9 +14,9 @@
   })
   .setTween(tweenP1)
   .addTo(controller)
-  .addIndicators({
-    name: "1"
-  });
+  // .addIndicators({
+  //   name: "1"
+  // });
 
   var tweenP2 = gsap.timeline()
   .fromTo(".p1-wave", { y: 0, duration: 0.8, ease: "sine.inOut" }, { y: -80, duration: 0.5, ease: "sine.inOut"}, "with")
@@ -29,9 +29,9 @@
   })
   .setTween(tweenP2)
   .addTo(controller)
-  .addIndicators({
-    name: "2"
-  });
+  // .addIndicators({
+  //   name: "2"
+  // });
 
   var tweenP3 = gsap.timeline()
   .fromTo(".p2-logo", {y: 10, opacity: 0, duration: 0.8, ease: "sine.inOut" }, {y: -20, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with")
@@ -43,9 +43,9 @@
   })
   .setTween(tweenP3)
   .addTo(controller)
-  .addIndicators({
-    name: "3"
-  });
+  // .addIndicators({
+  //   name: "3"
+  // });
 
   var tweenP4 = gsap.timeline()
   .fromTo(".p2-text", {y: 10, scale: 1, opacity: 0, duration: 0.8, ease: "sine.inOut" }, {y: -20, scale: 1.2, opacity: 1, duration: 0.7, ease: "sine.inOut"}, "with");
@@ -56,9 +56,9 @@
   })
   .setTween(tweenP4)
   .addTo(controller)
-  .addIndicators({
-    name: "4"
-  });
+  // .addIndicators({
+  //   name: "4"
+  // });
 
   var tweenP5 = gsap.timeline()
   .fromTo(".p2-wave1", { y: 80, duration: 0.8, ease: "sine.inOut" }, { y: 0, duration: 0.5, ease: "sine.inOut"}, "with")
@@ -71,9 +71,9 @@
   })
   .setTween(tweenP5)
   .addTo(controller)
-  .addIndicators({
-    name: "5"
-  });
+  // .addIndicators({
+  //   name: "5"
+  // });
 
   var tweenP6 = gsap.timeline()
   .fromTo(".p3-c1", {opacity: 0, scale: 1.2, duration: 0.8, ease: "sine.inOut"}, {opacity: 1, scale: 1, duration: 0.8, ease: Back.easeInOut}, "with")
@@ -87,9 +87,9 @@
   })
   .setTween(tweenP6)
   .addTo(controller)
-  .addIndicators({
-    name: "6"
-  });
+  // .addIndicators({
+  //   name: "6"
+  // });
 
   var tweenP7 = gsap.timeline()
   .fromTo(".p3-title2", {y: -10, opacity: 0, scale: 1, duration: 0.8, ease: "sine.inOut"}, {y: 20, opacity: 1, scale: 1.2, duration: 0.8, ease: "sine.inOut", delay: 0.1}, "with")
@@ -102,9 +102,9 @@
   })
   .setTween(tweenP7)
   .addTo(controller)
-  .addIndicators({
-    name: "7"
-  });
+  // .addIndicators({
+  //   name: "7"
+  // });
 
   var tweenP8 = gsap.timeline()
   .fromTo(".p4-title", {y: -10, opacity: 0, duration: 0.8, ease: "sine.inOut"}, {y: 20, opacity: 1, duration: 0.8, ease: "sine.inOut", delay: 0.1}, "with");
@@ -115,9 +115,9 @@
   })
   .setTween(tweenP8)
   .addTo(controller)
-  .addIndicators({
-    name: "8"
-  });
+  // .addIndicators({
+  //   name: "8"
+  // });
 
   var tweenP9 = gsap.timeline()
   .fromTo(".cir1", {opacity: 0.1, scale: 1.4, duration: 0.8, ease: Bounce.easeOut}, {opacity: 1, scale: 1, duration: 0.8, ease: Bounce.easeOut}, "with1")
@@ -133,9 +133,9 @@
   })
   .setTween(tweenP9)
   .addTo(controller)
-  .addIndicators({
-    name: "9"
-  });
+  // .addIndicators({
+  //   name: "9"
+  // });
 
   var tweenP10 = gsap.timeline()
   .fromTo(".p5-text", {y: -50, opacity: 0, duration: 0.8, ease: "sine.inOut"}, {y: 20, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with")
@@ -148,9 +148,9 @@
   })
   .setTween(tweenP10)
   .addTo(controller)
-  .addIndicators({
-    name: "10"
-  });
+  // .addIndicators({
+  //   name: "10"
+  // });
 
   var tweenP11 = gsap.timeline()
   .fromTo(".p6-persona-title", {y: -10, opacity: 0, duration: 0.8, ease: "sine.inOut"}, {y: 20, opacity: 1, duration: 0.8, ease: "sine.inOut"});
@@ -161,9 +161,9 @@
   })
   .setTween(tweenP11)
   .addTo(controller)
-  .addIndicators({
-    name: "11"
-  });
+  // .addIndicators({
+  //   name: "11"
+  // });
 
   var tweenP12 = gsap.timeline()
   .fromTo(".p6-persona-avatar", {x: -80, opacity: 0, duration: 0.8, ease: "sine.inOut"}, {x: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with1")
@@ -182,9 +182,9 @@
   })
   .setTween(tweenP12)
   .addTo(controller)
-  .addIndicators({
-    name: "12"
-  });
+  // .addIndicators({
+  //   name: "12"
+  // });
 
   var tweenP13 = gsap.timeline()
   .fromTo(".p6-persona-content-label-arrow", {y: -20, rotate: -20, opacity: 0, duration: 0.8, ease: "sine.inOut"}, {y: 0, rotate: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"})
@@ -195,9 +195,9 @@
   })
   .setTween(tweenP13)
   .addTo(controller)
-  .addIndicators({
-    name: "13"
-  });
+  // .addIndicators({
+  //   name: "13"
+  // });
 
   var tweenP14 = gsap.timeline()
   .fromTo(".p6-vlog-list", {x: 0, duration: 2, ease: "power4.inOut"}, {x: -850, duration: 2.5, ease: "power4.inOut"})
@@ -208,9 +208,9 @@
   })
   .setTween(tweenP14)
   .addTo(controller)
-  .addIndicators({
-    name: "14"
-  });
+  // .addIndicators({
+  //   name: "14"
+  // });
 
   var tweenP15 = gsap.timeline()
   .fromTo(".p6-vlog-title-down", {y: -50, opacity: 0, duration: 1, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with")
@@ -223,9 +223,9 @@
   })
   .setTween(tweenP15)
   .addTo(controller)
-  .addIndicators({
-    name: "15"
-  });
+  // .addIndicators({
+  //   name: "15"
+  // });
 
   var tweenP16 = gsap.timeline()
   .fromTo(".p7-title", {y: -50, opacity: 0, duration: 1, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with")
@@ -237,9 +237,9 @@
   })
   .setTween(tweenP16)
   .addTo(controller)
-  .addIndicators({
-    name: "16"
-  });
+  // .addIndicators({
+  //   name: "16"
+  // });
 
   var tweenP17 = gsap.timeline()
   .fromTo(".p7-text-box", {y: 50, opacity: 0, duration: 1, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with1")
@@ -253,9 +253,9 @@
   })
   .setTween(tweenP17)
   .addTo(controller)
-  .addIndicators({
-    name: "17"
-  });
+  // .addIndicators({
+  //   name: "17"
+  // });
 
   var tweenP18 = gsap.timeline()
   .fromTo(".p7-map1-0", {opacity: 0, duration: 1, ease: "sine.inOut"}, {opacity: 1, duration: 0.8, ease: "sine.inOut"})
@@ -274,9 +274,9 @@
   })
   .setTween(tweenP18)
   .addTo(controller)
-  .addIndicators({
-    name: "18"
-  });
+  // .addIndicators({
+  //   name: "18"
+  // });
 
   var tweenP19 = gsap.timeline()
   .fromTo(".p7-map2-0", {opacity: 0, duration: 1, ease: "sine.inOut"}, {opacity: 1, duration: 0.8, ease: "sine.inOut"})
@@ -303,9 +303,9 @@
   })
   .setTween(tweenP19)
   .addTo(controller)
-  .addIndicators({
-    name: "19"
-  });
+  // .addIndicators({
+  //   name: "19"
+  // });
 
   var tweenP20 = gsap.timeline()
   .fromTo(".p7-chat", {x: -50, opacity: 0, duration: 1, ease: "sine.inOut"}, {x: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with")
@@ -317,9 +317,9 @@
   })
   .setTween(tweenP20)
   .addTo(controller)
-  .addIndicators({
-    name: "20"
-  });
+  // .addIndicators({
+  //   name: "20"
+  // });
 
   var tweenP21 = gsap.timeline()
   .fromTo(".p7-text-2", {scale: 1.2, opacity: 0, duration: 1, ease: "back.inOut" }, {scale: 1, opacity: 1, duration: 0.8, ease: "back.inOut"}, "with")
@@ -332,9 +332,9 @@
   })
   .setTween(tweenP21)
   .addTo(controller)
-  .addIndicators({
-    name: "21"
-  });
+  // .addIndicators({
+  //   name: "21"
+  // });
 
   var tweenP22 = gsap.timeline()
   .fromTo(".p7-map3-0", {opacity: 0, duration: 1, ease: "sine.inOut"}, {opacity: 1, duration: 0.8, ease: "sine.inOut"})
@@ -360,9 +360,9 @@
   })
   .setTween(tweenP22)
   .addTo(controller)
-  .addIndicators({
-    name: "22"
-  });
+  // .addIndicators({
+  //   name: "22"
+  // });
 
   var tweenP23 = gsap.timeline()
   .fromTo(".p7-ut-title", {opacity: 0, duration: 1, ease: "sine.inOut"}, {opacity: 1, duration: 1, ease: "sine.inOut"})
@@ -376,9 +376,9 @@
   })
   .setTween(tweenP23)
   .addTo(controller)
-  .addIndicators({
-    name: "23"
-  });
+  // .addIndicators({
+  //   name: "23"
+  // });
 
   var tweenP24 = gsap.timeline()
   .fromTo(".p7-ut-result-title", {scale: 1.2, opacity: 0, duration: 1, ease: "back.inOut" }, {scale: 1, opacity: 1, duration: 0.8, ease: "back.inOut"}, "with")
@@ -391,9 +391,9 @@
   })
   .setTween(tweenP24)
   .addTo(controller)
-  .addIndicators({
-    name: "24"
-  });
+  // .addIndicators({
+  //   name: "24"
+  // });
 
   var tweenP25 = gsap.timeline()
   .fromTo(".p8-arrow", {x: -150, y: -500, rotate: -30, opacity: 0, duration: 1, ease: "back.inOut" }, {x: 0, y: 0, rotate: 0, opacity: 1, duration: 1.2, ease: "back.inOut"}, "with")
@@ -407,9 +407,9 @@
   })
   .setTween(tweenP25)
   .addTo(controller)
-  .addIndicators({
-    name: "25"
-  });
+  // .addIndicators({
+  //   name: "25"
+  // });
 
   var tweenP26 = gsap.timeline()
   .fromTo(".p8-map4-0", {opacity: 0, duration: 1, ease: "sine.inOut"}, {opacity: 1, duration: 0.8, ease: "sine.inOut"})
@@ -437,9 +437,9 @@
   })
   .setTween(tweenP26)
   .addTo(controller)
-  .addIndicators({
-    name: "26"
-  });
+  // .addIndicators({
+  //   name: "26"
+  // });
 
   var tweenP27 = gsap.timeline()
   .fromTo(".p8-ut-item-1", {y: 30, opacity: 0, duration: 1, ease: Back.easeOut}, {y: 0, opacity: 1, duration: 1.2, ease: Back.easeOut, delay: 1.2}, "with")
@@ -453,9 +453,9 @@
   })
   .setTween(tweenP27)
   .addTo(controller)
-  .addIndicators({
-    name: "27"
-  });
+  // .addIndicators({
+  //   name: "27"
+  // });
 
   var tweenP28 = gsap.timeline()
   .fromTo(".p8-result-title1", {scale: 1.2, opacity: 0, duration: 1, ease: "back.inOut" }, {scale: 1, opacity: 1, duration: 0.8, ease: "back.inOut"}, "with1")
@@ -473,9 +473,9 @@
   })
   .setTween(tweenP28)
   .addTo(controller)
-  .addIndicators({
-    name: "28"
-  });
+  // .addIndicators({
+  //   name: "28"
+  // });
 
   var tweenP29 = gsap.timeline()
   .fromTo(".p8-wave", {y: 0, duration: 0.8, ease: "sine.inOut"}, {y: -100, duration: 0.8, ease: "sine.inOut"}, "with")
@@ -487,9 +487,9 @@
   })
   .setTween(tweenP29)
   .addTo(controller)
-  .addIndicators({
-    name: "29"
-  });
+  // .addIndicators({
+  //   name: "29"
+  // });
 
   var tweenP30 = gsap.timeline()
   .fromTo(".p9-content-middle", {opacity: 0, duration: 1, ease: "sine.inOut"}, {opacity: 1, duration: 1, ease: "sine.inOut"}, "with1")
@@ -506,9 +506,9 @@
   })
   .setTween(tweenP30)
   .addTo(controller)
-  .addIndicators({
-    name: "30"
-  });
+  // .addIndicators({
+  //   name: "30"
+  // });
 
   var tweenP31 = gsap.timeline()
   .fromTo(".p9-illust-1", {y: -30, opacity: 0, duration: 0.5, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.6, ease: "sine.inOut"}, "with1")
@@ -522,9 +522,9 @@
   })
   .setTween(tweenP31)
   .addTo(controller)
-  .addIndicators({
-    name: "31"
-  });
+  // .addIndicators({
+  //   name: "31"
+  // });
 
   var tweenP32 = gsap.timeline()
   .fromTo(".p9-insight-title", {y: -10, opacity: 0, duration: 0.8, ease: "sine.inOut"}, {y: 20, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with1")
@@ -540,9 +540,9 @@
   })
   .setTween(tweenP32)
   .addTo(controller)
-  .addIndicators({
-    name: "32"
-  });
+  // .addIndicators({
+  //   name: "32"
+  // });
 
   var tweenP32 = gsap.timeline()
   .fromTo(".p9-insight-title", {y: -10, opacity: 0, duration: 0.8, ease: "sine.inOut"}, {y: 20, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with1")
@@ -558,9 +558,9 @@
   })
   .setTween(tweenP32)
   .addTo(controller)
-  .addIndicators({
-    name: "32"
-  });
+  // .addIndicators({
+  //   name: "32"
+  // });
 
   var tweenP33 = gsap.timeline()
   .fromTo(".p9-wave-wave", { y: 80, duration: 0.8, ease: "sine.inOut" }, { y: 0, duration: 0.5, ease: "sine.inOut"}, "with")
@@ -573,9 +573,9 @@
   })
   .setTween(tweenP33)
   .addTo(controller)
-  .addIndicators({
-    name: "33"
-  });
+  // .addIndicators({
+  //   name: "33"
+  // });
 
   var tweenP34 = gsap.timeline()
   .fromTo(".p10-title", {y: -30, opacity: 0, duration: 1, ease: "sine.inOut" }, {y: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"})
@@ -589,9 +589,9 @@
   })
   .setTween(tweenP34)
   .addTo(controller)
-  .addIndicators({
-    name: "34"
-  });
+  // .addIndicators({
+  //   name: "34"
+  // });
 
   var tweenP35 = gsap.timeline()
   .fromTo(".p10-card-2-right", { x: 50, opacity: 0, duration: 1, ease: "sine.inOut" }, { x: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with")
@@ -606,9 +606,9 @@
   })
   .setTween(tweenP35)
   .addTo(controller)
-  .addIndicators({
-    name: "35"
-  });
+  // .addIndicators({
+  //   name: "35"
+  // });
 
   var tweenP36 = gsap.timeline()
   .fromTo(".p10-info-0", { y: -30, opacity: 0, duration: 1, ease: "sine.inOut" }, { y: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with1")
@@ -625,9 +625,9 @@
   })
   .setTween(tweenP36)
   .addTo(controller)
-  .addIndicators({
-    name: "36"
-  });
+  // .addIndicators({
+  //   name: "36"
+  // });
 
   var tweenP37 = gsap.timeline()
   .fromTo(".p10-info-2", { x: -50, opacity: 0, duration: 1, ease: "sine.inOut" }, { x: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with")
@@ -642,9 +642,9 @@
   })
   .setTween(tweenP37)
   .addTo(controller)
-  .addIndicators({
-    name: "37"
-  });
+  // .addIndicators({
+  //   name: "37"
+  // });
 
   var tweenP38 = gsap.timeline()
   .fromTo(".p10-f-6", {y: 100, opacity: 0, duration: 0.7, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.6, ease: "sine.inOut", delay: 0.5}, "with")
@@ -661,9 +661,9 @@
   })
   .setTween(tweenP38)
   .addTo(controller)
-  .addIndicators({
-    name: "38"
-  });
+  // .addIndicators({
+  //   name: "38"
+  // });
 
   var tweenP39 = gsap.timeline()
   .fromTo(".p10-card-3-left", { x: -50, opacity: 0, duration: 1, ease: "sine.inOut" }, { x: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with");
@@ -674,9 +674,9 @@
   })
   .setTween(tweenP39)
   .addTo(controller)
-  .addIndicators({
-    name: "39"
-  });
+  // .addIndicators({
+  //   name: "39"
+  // });
 
   var tweenP40 = gsap.timeline()
   .fromTo(".p10-c4-info-1", {opacity: 0.3, scale: 1.4, duration: 0.8, ease: Bounce.easeOut}, {opacity: 1, scale: 1, duration: 0.8, ease: Bounce.easeOut}, "with1")
@@ -696,9 +696,9 @@
   })
   .setTween(tweenP40)
   .addTo(controller)
-  .addIndicators({
-    name: "40"
-  });
+  // .addIndicators({
+  //   name: "40"
+  // });
 
   var tweenP41 = gsap.timeline()
   .fromTo(".p10-f-12", {y: -30, opacity: 0, duration: 0.7, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.6, ease: "sine.inOut"}, "with2")
@@ -714,9 +714,9 @@
   })
   .setTween(tweenP41)
   .addTo(controller)
-  .addIndicators({
-    name: "41"
-  });
+  // .addIndicators({
+  //   name: "41"
+  // });
 
   var tweenP42 = gsap.timeline()
   .fromTo(".p11-card-layer-2", {opacity: 0, scale: 1.2, duration: 0.8, ease: Bounce.easeOut}, {opacity: 1, scale: 1, duration: 0.8, ease: Bounce.easeOut, delay: 0.4}, "with2")
@@ -730,9 +730,9 @@
   })
   .setTween(tweenP42)
   .addTo(controller)
-  .addIndicators({
-    name: "42"
-  });
+  // .addIndicators({
+  //   name: "42"
+  // });
 
   var tweenP43 = gsap.timeline()
   .fromTo(".p11-wave-wave", {y: 20, duration: 0.8, ease: "sine.inOut"}, {y: -60, duration: 0.8, ease: "sine.inOut"}, "with")
@@ -744,9 +744,9 @@
   })
   .setTween(tweenP43)
   .addTo(controller)
-  .addIndicators({
-    name: "43"
-  });
+  // .addIndicators({
+  //   name: "43"
+  // });
 
   var tweenP44 = gsap.timeline()
   .fromTo(".p12-box-1", {x: -50, opacity: 0, duration: 1, ease: "sine.inOut"}, {x: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with")
@@ -758,9 +758,9 @@
   })
   .setTween(tweenP44)
   .addTo(controller)
-  .addIndicators({
-    name: "44"
-  });
+  // .addIndicators({
+  //   name: "44"
+  // });
 
   var tweenP45 = gsap.timeline()
   .fromTo(".p12-wave-wave", {y: -30, duration: 0.8, ease: "sine.inOut"}, {y: 0, duration: 0.8, ease: "sine.inOut"}, "with");
@@ -771,9 +771,9 @@
   })
   .setTween(tweenP45)
   .addTo(controller)
-  .addIndicators({
-    name: "45"
-  });
+  // .addIndicators({
+  //   name: "45"
+  // });
 
   var tweenP46 = gsap.timeline()
   .fromTo(".p13-title", {scale: 1.2, opacity: 0, duration: 1, ease: "back.inOut" }, {scale: 1, opacity: 1, duration: 0.8, ease: "back.inOut"}, "with")
@@ -787,9 +787,9 @@
   })
   .setTween(tweenP46)
   .addTo(controller)
-  .addIndicators({
-    name: "46"
-  });
+  // .addIndicators({
+  //   name: "46"
+  // });
 
   var tweenP47 = gsap.timeline()
   .fromTo(".p13-wave-wave", {y: 50, duration: 0.8, ease: "sine.inOut"}, {y: 0, duration: 0.8, ease: "sine.inOut"}, "with")
@@ -803,9 +803,9 @@
   })
   .setTween(tweenP47)
   .addTo(controller)
-  .addIndicators({
-    name: "47"
-  });
+  // .addIndicators({
+  //   name: "47"
+  // });
 
   var tweenP48 = gsap.timeline()
   .fromTo(".p14-end", {opacity: 0, scale: 1.1, duration: 0.8, ease: "sine.inOut"}, {opacity: 1, scale: 1, duration: 0.8, ease: "sine.inOut"}, "with")
@@ -817,8 +817,8 @@
   })
   .setTween(tweenP48)
   .addTo(controller)
-  .addIndicators({
-    name: "48"
-  });
+  // .addIndicators({
+  //   name: "48"
+  // });
 
 })();
