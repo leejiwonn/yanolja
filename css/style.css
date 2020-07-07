@@ -2037,6 +2037,16 @@ body {
   width: 100%;
 }
 
+#twelve-page > .p12-trigger-1{
+  top: -50px;
+}
+#twelve-page > .p12-trigger-2{
+  top: 700px;
+}
+#twelve-page > .p12-trigger-3{
+  top: 1100px;
+}
+
 #twelve-page {
   background-color: #fd3478;
 }
@@ -2095,6 +2105,13 @@ body {
   top: 0;
   right: 0;
   width: 100%;
+}
+
+#thirteen-page > .p13-trigger-1{
+  top: 300px;
+}
+#thirteen-page > .p13-trigger-2{
+  top: 900px;
 }
 
 #thirteen-page {

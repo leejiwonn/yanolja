@@ -243,6 +243,8 @@
 
   var tweenP17 = gsap.timeline()
   .fromTo(".p7-text-box", {y: 50, opacity: 0, duration: 1, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with1")
+  .fromTo(".p7-deco-1", {scale: 0.8, opacity: 0, duration: 1, ease: "sine.inOut"}, {scale: 1, opacity: 1, duration: 0.8, ease: Bounce.easeOut, delay: 0.2}, "with1")
+  .fromTo(".p7-deco-1-1", {scale: 1.2, opacity: 0, duration: 1, ease: "sine.inOut"}, {scale: 1, opacity: 1, duration: 0.8, ease: Bounce.easeOut, delay: 0.3}, "with1")
   .fromTo(".p7-text-1", {y: -30, opacity: 0, duration: 1, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with2");
 
   var sceneP17 = new ScrollMagic.Scene({
@@ -730,6 +732,93 @@
   .addTo(controller)
   .addIndicators({
     name: "42"
+  });
+
+  var tweenP43 = gsap.timeline()
+  .fromTo(".p11-wave-wave", {y: 20, duration: 0.8, ease: "sine.inOut"}, {y: -60, duration: 0.8, ease: "sine.inOut"}, "with")
+  .fromTo(".p12-card-title", { x: 50, opacity: 0, duration: 1, ease: "sine.inOut" }, { x: 0, opacity: 1, duration: 0.8, ease: "sine.inOut", delay: 0.2}, "with");
+
+  var sceneP43 = new ScrollMagic.Scene({
+    triggerElement: ".p12-trigger-1",
+    triggerhook: 0.8
+  })
+  .setTween(tweenP43)
+  .addTo(controller)
+  .addIndicators({
+    name: "43"
+  });
+
+  var tweenP44 = gsap.timeline()
+  .fromTo(".p12-box-1", {x: -50, opacity: 0, duration: 1, ease: "sine.inOut"}, {x: 0, opacity: 1, duration: 0.8, ease: "sine.inOut"}, "with")
+  .fromTo(".p12-box-2", {x: -30, opacity: 0, duration: 1, ease: "sine.inOut" }, {x: 0, opacity: 1, duration: 0.8, ease: "sine.inOut", delay: 0.2}, "with");
+
+  var sceneP44 = new ScrollMagic.Scene({
+    triggerElement: ".p12-trigger-2",
+    triggerhook: 0.8
+  })
+  .setTween(tweenP44)
+  .addTo(controller)
+  .addIndicators({
+    name: "44"
+  });
+
+  var tweenP45 = gsap.timeline()
+  .fromTo(".p12-wave-wave", {y: -30, duration: 0.8, ease: "sine.inOut"}, {y: 0, duration: 0.8, ease: "sine.inOut"}, "with");
+
+  var sceneP45 = new ScrollMagic.Scene({
+    triggerElement: ".p12-trigger-3",
+    triggerhook: 0.8
+  })
+  .setTween(tweenP45)
+  .addTo(controller)
+  .addIndicators({
+    name: "45"
+  });
+
+  var tweenP46 = gsap.timeline()
+  .fromTo(".p13-title", {scale: 1.2, opacity: 0, duration: 1, ease: "back.inOut" }, {scale: 1, opacity: 1, duration: 0.8, ease: "back.inOut"}, "with")
+  .fromTo(".p13-title-highlight-1", {y: 30, opacity: 0, duration: 0.5, ease: "sine.inOut" }, {y: -10, opacity: 1, duration: 0.6, ease: Bounce.easeOut, delay: 0.6}, "with")
+  .fromTo(".p13-title-highlight-3", {x: -500, opacity: 0, duration: 1.2, ease: "sine.inOut" }, {x: 0, opacity: 1, duration: 0.6, ease: Bounce.easeOut, delay: 1}, "with")
+  .fromTo(".p13-title-highlight-2", {x: 50, opacity: 0, duration: 1.2, ease: "sine.inOut" }, {x: 0, opacity: 1, duration: 0.6, ease: Bounce.easeOut, delay: 1.4}, "with");
+
+  var sceneP46 = new ScrollMagic.Scene({
+    triggerElement: ".p13-trigger-1",
+    triggerhook: 0.8
+  })
+  .setTween(tweenP46)
+  .addTo(controller)
+  .addIndicators({
+    name: "46"
+  });
+
+  var tweenP47 = gsap.timeline()
+  .fromTo(".p13-wave-wave", {y: 50, duration: 0.8, ease: "sine.inOut"}, {y: 0, duration: 0.8, ease: "sine.inOut"}, "with")
+  .fromTo(".p13-people-front", {y: 50, opacity: 0, duration: 0.8, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.8, ease: Bounce.easeOut, delay: 0.4}, "with")
+  .fromTo(".p13-people-back", {y: 50, opacity: 0, duration: 0.8, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.8, ease: Bounce.easeOut, delay: 0.4}, "with")
+  .fromTo(".p13-people-particle", {y: 50, opacity: 0, duration: 0.8, ease: "sine.inOut"}, {y: 0, opacity: 1, duration: 0.8, ease: Bounce.easeOut, delay: 0.7}, "with");
+
+  var sceneP47 = new ScrollMagic.Scene({
+    triggerElement: ".p13-trigger-2",
+    triggerhook: 0.8
+  })
+  .setTween(tweenP47)
+  .addTo(controller)
+  .addIndicators({
+    name: "47"
+  });
+
+  var tweenP48 = gsap.timeline()
+  .fromTo(".p14-end", {opacity: 0, scale: 1.1, duration: 0.8, ease: "sine.inOut"}, {opacity: 1, scale: 1, duration: 0.8, ease: "sine.inOut"}, "with")
+  .fromTo(".p14-particle", {scale: 0.6, opacity: 0, duration: 0.8, ease: "sine.inOut"}, {scale: 1, opacity: 1, duration: 0.8, ease: Back.easeOut, delay: 0.3}, "with")
+
+  var sceneP48 = new ScrollMagic.Scene({
+    triggerElement: ".p14-trigger-1",
+    triggerhook: 0.8
+  })
+  .setTween(tweenP48)
+  .addTo(controller)
+  .addIndicators({
+    name: "48"
   });
 
 })();
