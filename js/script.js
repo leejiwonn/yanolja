@@ -735,7 +735,7 @@
   // });
 
   var tweenP43 = gsap.timeline()
-  .fromTo(".p11-wave-wave", {y: 20, duration: 0.8, ease: "sine.inOut"}, {y: -60, duration: 0.8, ease: "sine.inOut"}, "with")
+  .fromTo(".p11-wave-wave", {y: -20, duration: 0.8, ease: "sine.inOut"}, {y: -60, duration: 0.8, ease: "sine.inOut"}, "with")
   .fromTo(".p12-card-title", { x: 50, opacity: 0, duration: 1, ease: "sine.inOut" }, { x: 0, opacity: 1, duration: 0.8, ease: "sine.inOut", delay: 0.2}, "with");
 
   var sceneP43 = new ScrollMagic.Scene({
